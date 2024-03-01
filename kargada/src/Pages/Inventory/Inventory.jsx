@@ -19,20 +19,20 @@ const Inventory = () => {
   }, []);
 
   return (
-    <div className="container mt-5">
-      <h1 className="text-center mb-4">Inventory</h1>
-      <div className="table-responsive">
-        <table className="table table-bordered table-striped">
-          <thead className="thead-dark">
+    <div >
+      <h1 >Inventory</h1>
+      <div>
+        <table>
+          <thead className="">
             <tr>
-              <th className="text-white bg-primary">BARCODE</th>
-              <th className="text-white bg-primary">CATEGORY</th>
-              <th className="text-white bg-primary">BIN#</th>
-              <th className="text-white bg-primary">LOCATION</th>
-              <th className="text-white bg-primary">UNIT</th>
-              <th className="text-white bg-primary">QTY</th>
-              <th className="text-white bg-primary">REORDER QTY</th>
-              <th className="text-white bg-primary">COST</th>
+              <th>BARCODE</th>
+              <th>CATEGORY</th>
+              <th>BIN#</th>
+              <th>LOCATION</th>
+              <th>UNIT</th>
+              <th>QTY</th>
+              <th>REORDER QTY</th>
+              <th>COST</th>
               </tr>
           </thead>
           <tbody>
